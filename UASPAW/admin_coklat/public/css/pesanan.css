@@ -1,0 +1,49 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e1; /* Warna latar belakang terang */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+           
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: white; /* Warna teks putih agar kontras */
+        }
+
+        h2 {
+            color: #f0e5d8; /* Warna judul lebih terang */
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 12px;
+            background-color: #6b4f38; /* Warna coklat gelap untuk header */
+        }
+
+        th {
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #7a523c; /* Warna coklat lebih muda untuk baris genap */
+        }
+
+        tr:hover {
+            background-color: #cd853f; /* Warna saat hover */
+        }

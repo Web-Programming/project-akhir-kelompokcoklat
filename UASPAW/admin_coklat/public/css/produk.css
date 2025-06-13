@@ -1,0 +1,40 @@
+body {
+    background-color: #f0e9ba; /* Warna latar belakang */
+}
+
+.table-coklat {
+    background-color: #fff; /* Warna latar belakang tabel */
+    border-radius: 8px; /* Sudut tabel yang membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan tabel */
+}
+
+.table th {
+    background-color: #5d3a1d; /* Warna coklat tua untuk header tabel */
+    color: #fff; /* Warna teks header */
+}
+
+.table td {
+    color: #5d3a1d; /* Warna teks untuk sel */
+}
+
+.btn-tambah {
+    background-color: #5d3a1d; /* Warna coklat tua untuk tombol */
+    border: none; /* Menghilangkan border default */
+    color: white; /* Warna teks tombol */
+}
+
+.btn-tambah:hover {
+    background-color: #c78e5b; /* Warna tombol saat hover */
+    color: white; /* Warna teks tombol saat hover */
+}
+
+.breadcrumb {
+    background-color: #fff; /* Warna latar belakang breadcrumb */
+    border-radius: 5px; /* Sudut breadcrumb yang membulat */
+    padding: 10px; /* Ruang di dalam breadcrumb */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan breadcrumb */
+}
+
+.no-decoration {
+    text-decoration: none;
+}

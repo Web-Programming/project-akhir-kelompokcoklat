@@ -1,0 +1,16 @@
+.unique-navbar {
+    background-color: #4e3b30; /* Warna latar belakang navbar */
+}
+
+.unique-navbar .nav-link {
+    color: #ffffff; /* Warna teks tautan */
+}
+
+.unique-navbar .nav-link:hover {
+    color: #c7a69a; /* Warna teks tautan saat hover */
+}
+
+.unique-navbar .navbar-brand {
+    font-weight: bold; /* Gaya untuk brand logo */
+    color: #ffffff; /* Warna logo */
+}

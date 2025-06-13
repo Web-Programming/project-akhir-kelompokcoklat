@@ -1,0 +1,107 @@
+/* Mengatur gaya untuk seluruh halaman */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3e5d0; /* Warna latar belakang coklat muda */
+}
+
+.wrapper {
+    background-color: #8b5e34; /* Warna coklat tua */
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px  12px ;
+    border: none;
+    background-color: #f7f3ed; /* Warna coklat sangat muda */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-box input:focus {
+    outline: none;
+    box-shadow: 0 0 6px #d1a77e; /* Fokus pada input */
+}
+
+.input-box i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b68a60; /* Warna ikon */
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.remember-forgot a {
+    color: #ffd9b3; /* Warna link */
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #a47042; /* Warna coklat medium */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #8b5e34; /* Warna coklat lebih tua */
+}
+
+.register-link {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #ffd9b3; /* Warna link */
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

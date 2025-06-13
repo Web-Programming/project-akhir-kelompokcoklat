@@ -1,0 +1,36 @@
+.no-decoration {
+    text-decoration: none;
+    color: #e4b69c; /* Warna coklat muda untuk link */
+}
+
+.btn-brown {
+    background-color: #4E3B30; /* Coklat tua */
+    color: white;
+    border: none;
+}
+
+.btn-brown:hover {
+    background-color: #5A3E35; /* Coklat lebih gelap untuk hover */
+}
+
+/* Styling untuk tabel agar berwarna coklat tua */
+.table-coklat thead {
+    background-color: #6F4C3E; /* Coklat tua */
+    color: white;
+}
+
+.table-coklat {
+    border: 2px solid #6F4C3E; /* Coklat tua */
+}
+
+.table-coklat tbody tr {
+    border-bottom: 1px solid #6F4C3E; /* Coklat tua */
+}
+
+.table-coklat tbody tr td {
+    color: #3E2723; /* Coklat lebih gelap */
+}
+
+.table-coklat tbody tr:hover {
+    background-color: #4E3B30; /* Coklat tua lebih gelap saat hover */
+}

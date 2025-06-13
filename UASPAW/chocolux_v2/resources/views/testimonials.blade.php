@@ -64,69 +64,6 @@
     </div>
 </section>
 
-<!-- Add Testimonial Section -->
-<section class="add_testimonial_section layout_padding">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="form_container">
-                    <div class="heading_container">
-                        <h2>Share Your Experience</h2>
-                    </div>
 
-                    @if(session('success'))
-                        <div class="alert alert-success alert-dismissible fade show" role="alert">
-                            {{ session('success') }}
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                    @endif
 
-                    <form action="{{ route('testimonials.store') }}" method="POST">
-                        @csrf
-                        <div class="form-group">
-                            <input type="text" 
-                                   name="name" 
-                                   class="form-control @error('name') is-invalid @enderror" 
-                                   placeholder="Your Name"
-                                   value="{{ old('name') }}" 
-                                   required>
-                            @error('name')
-                                <span class="invalid-feedback">{{ $message }}</span>
-                            @enderror
-                        </div>
-
-                        <div class="form-group">
-                            <input type="email" 
-                                   name="email" 
-                                   class="form-control @error('email') is-invalid @enderror" 
-                                   placeholder="Your Email"
-                                   value="{{ old('email') }}" 
-                                   required>
-                            @error('email')
-                                <span class="invalid-feedback">{{ $message }}</span>
-                            @enderror
-                        </div>
-
-                        <div class="form-group">
-                            <textarea name="message" 
-                                      class="form-control @error('message') is-invalid @enderror" 
-                                      rows="5" 
-                                      placeholder="Share your experience with our products..."
-                                      required>{{ old('message') }}</textarea>
-                            @error('message')
-                                <span class="invalid-feedback">{{ $message }}</span>
-                            @enderror
-                        </div>
-
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-submit">Submit Testimonial</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 @endsection

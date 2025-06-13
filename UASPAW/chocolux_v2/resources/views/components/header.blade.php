@@ -24,9 +24,9 @@
                     <li class="nav-item {{ Request::routeIs('contact') ? 'active' : '' }}">
                         <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
                     </li>
-                    <li class="nav-item {{ Request::routeIs('orders') ? 'active' : '' }}">
+                    {{-- <li class="nav-item {{ Request::routeIs('orders') ? 'active' : '' }}">
                         <a class="nav-link" href="{{ route('orders.index') }}">Pesanan Saya</a>
-                    </li>
+                    </li> --}}
                 </ul>
                 <div class="quote_btn-container">
                     @if(Session::has('is_logged_in'))
@@ -38,7 +38,7 @@
                                 {{ Session::get('full_name') }} <i class="fa fa-user"></i>
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="{{ route('orders.index') }}">Pesanan Saya</a>
+                                {{-- <a class="dropdown-item" href="{{ route('orders.index') }}">Pesanan Saya</a> --}}
                                 <form action="{{ route('logout') }}" method="POST">
                                     @csrf
                                     <button type="submit" class="dropdown-item">Logout</button>
